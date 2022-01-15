@@ -1,4 +1,4 @@
-import { Trade, TradeType } from '@swappityswap-dev/sdk'
+import { Trade, TradeType } from '@dilipomi/swappityswap-sdk'
 import React, { useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import { Field } from '../../state/swap/actions'

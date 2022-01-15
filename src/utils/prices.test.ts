@@ -1,4 +1,4 @@
-import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@swappityswap-dev/sdk'
+import { ChainId, JSBI, Pair, Route, Token, TokenAmount, Trade, TradeType } from '@dilipomi/swappityswap-sdk'
 import { computeTradePriceBreakdown } from './prices'
 
 describe('prices', () => {

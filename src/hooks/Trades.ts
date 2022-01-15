@@ -1,5 +1,5 @@
 import { isTradeBetter } from 'utils/trades'
-import { Currency, CurrencyAmount, Pair, Token, Trade } from '@swappityswap-dev/sdk'
+import { Currency, CurrencyAmount, Pair, Token, Trade } from '@dilipomi/swappityswap-sdk'
 import flatMap from 'lodash.flatmap'
 import { useMemo } from 'react'
 

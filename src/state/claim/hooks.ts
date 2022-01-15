@@ -1,5 +1,5 @@
 import { UNI } from './../../constants/index'
-import { TokenAmount, JSBI, ChainId } from '@swappityswap-dev/sdk'
+import { TokenAmount, JSBI, ChainId } from '@dilipomi/swappityswap-sdk'
 import { TransactionResponse } from '@ethersproject/providers'
 import { useEffect, useState } from 'react'
 import { useActiveWeb3React } from '../../hooks'

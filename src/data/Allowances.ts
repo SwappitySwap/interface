@@ -1,4 +1,4 @@
-import { Token, TokenAmount } from '@swappityswap-dev/sdk'
+import { Token, TokenAmount } from '@dilipomi/swappityswap-sdk'
 import { useMemo } from 'react'
 
 import { useTokenContract } from '../hooks/useContract'

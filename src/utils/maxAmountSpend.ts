@@ -1,4 +1,4 @@
-import { CurrencyAmount, ETHER, JSBI } from '@swappityswap-dev/sdk'
+import { CurrencyAmount, ETHER, JSBI } from '@dilipomi/swappityswap-sdk'
 import { MIN_ETH } from '../constants'
 
 /**

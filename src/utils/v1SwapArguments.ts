@@ -1,5 +1,5 @@
 import { MaxUint256 } from '@ethersproject/constants'
-import { CurrencyAmount, ETHER, SwapParameters, Token, Trade, TradeOptionsDeadline, TradeType } from '@swappityswap-dev/sdk'
+import { CurrencyAmount, ETHER, SwapParameters, Token, Trade, TradeOptionsDeadline, TradeType } from '@dilipomi/swappityswap-sdk'
 import { getTradeVersion } from '../data/V1'
 import { Version } from '../hooks/useToggledVersion'
 

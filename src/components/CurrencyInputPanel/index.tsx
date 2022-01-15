@@ -1,4 +1,4 @@
-import { Currency, Pair } from '@swappityswap-dev/sdk'
+import { Currency, Pair } from '@dilipomi/swappityswap-sdk'
 import React, { useState, useCallback } from 'react'
 import styled from 'styled-components'
 import { darken } from 'polished'

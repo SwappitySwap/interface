@@ -12,7 +12,7 @@ import {
   Trade,
   TradeType,
   WETH
-} from '@swappityswap-dev/sdk'
+} from '@dilipomi/swappityswap-sdk'
 import { useMemo } from 'react'
 import { useActiveWeb3React } from '../hooks'
 import { useAllTokens } from '../hooks/Tokens'

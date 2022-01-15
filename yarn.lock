@@ -1247,6 +1247,19 @@
     debug "^3.1.0"
     lodash.once "^4.1.1"
 
+"@dilipomi/swappityswap-sdk@1.1.19":
+  version "1.1.19"
+  resolved "https://registry.yarnpkg.com/@dilipomi/swappityswap-sdk/-/swappityswap-sdk-1.1.19.tgz#5a9c3b71cff11f45ab65a40e63d1f255a8217749"
+  integrity sha512-8jgUop42LWbNf9XnWkA8rfqPy7hoK+I7Rj4n2DCfYYjY8Lootst43YceKEDrDCEnxy3v+HblHp1Q5v1gIjKIUw==
+  dependencies:
+    "@uniswap/v2-core" "^1.0.0"
+    big.js "^5.2.2"
+    decimal.js-light "^2.5.0"
+    jsbi "^3.1.1"
+    tiny-invariant "^1.1.0"
+    tiny-warning "^1.0.3"
+    toformat "^2.0.0"
+
 "@emotion/cache@^10.0.27":
   version "10.0.29"
   resolved "https://registry.yarnpkg.com/@emotion/cache/-/cache-10.0.29.tgz#87e7e64f412c060102d589fe7c6dc042e6f9d1e0"
@@ -2344,19 +2357,6 @@
     "@svgr/plugin-jsx" "^4.3.3"
     "@svgr/plugin-svgo" "^4.3.1"
     loader-utils "^1.2.3"
-
-"@swappityswap-dev/sdk@1.0.19":
-  version "1.0.19"
-  resolved "https://registry.yarnpkg.com/@swappityswap-dev/sdk/-/sdk-1.0.19.tgz#b31b2265e67bddbe98bad04c70f00d661ab667cf"
-  integrity sha512-onIeQIZTYDvKrrIv/TrKxFV8fO9u3D1DunzsA0I4a3dI6pHrMYVC1Tdfxiymb9YKekXND05GqHja9LmABQeB2g==
-  dependencies:
-    "@uniswap/v2-core" "^1.0.0"
-    big.js "^5.2.2"
-    decimal.js-light "^2.5.0"
-    jsbi "^3.1.1"
-    tiny-invariant "^1.1.0"
-    tiny-warning "^1.0.3"
-    toformat "^2.0.0"
 
 "@testing-library/dom@^7.11.0":
   version "7.31.2"
@@ -9983,9 +9983,9 @@ js-yaml@^3.13.1:
     esprima "^4.0.0"
 
 jsbi@^3.1.1:
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/jsbi/-/jsbi-3.2.4.tgz#aba5b77a14d7f546adc0bd17ab82c07e29f54e91"
-  integrity sha512-iOygwxPzMYli5xrjfd83Vy4Wyu9Ovpw6wWWFy5Kj7XP+pZxPp7Cy72F92iAt2j+6tTDYunvLtC+2tH3xCX37ng==
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/jsbi/-/jsbi-3.2.5.tgz#b37bb90e0e5c2814c1c2a1bcd8c729888a2e37d6"
+  integrity sha512-aBE4n43IPvjaddScbvWRA2YlTzKEynHzu7MqOyTipdHucf/VxS63ViCjxYRg86M8Rxwbt/GfzHl1kKERkt45fQ==
 
 jsbn@~0.1.0:
   version "0.1.1"

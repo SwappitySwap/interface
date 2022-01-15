@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { isAddress } from '../../utils'
-import { Token } from '@swappityswap-dev/sdk'
+import { Token } from '@dilipomi/swappityswap-sdk'
 
 export function filterTokens(tokens: Token[], search: string): Token[] {
   if (search.length === 0) return tokens

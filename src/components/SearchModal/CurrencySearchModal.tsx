@@ -1,4 +1,4 @@
-import { Currency, Token } from '@swappityswap-dev/sdk'
+import { Currency, Token } from '@dilipomi/swappityswap-sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import useLast from '../../hooks/useLast'
 import Modal from '../Modal'

@@ -1,4 +1,4 @@
-import { JSBI, Pair, Percent, TokenAmount } from '@swappityswap-dev/sdk'
+import { JSBI, Pair, Percent, TokenAmount } from '@dilipomi/swappityswap-sdk'
 import { darken } from 'polished'
 import React, { useState } from 'react'
 import { ChevronDown, ChevronUp } from 'react-feather'

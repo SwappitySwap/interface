@@ -1,4 +1,4 @@
-import { TokenAmount } from '@swappityswap-dev/sdk'
+import { TokenAmount } from '@dilipomi/swappityswap-sdk'
 import React, { useEffect } from 'react'
 import { X } from 'react-feather'
 import styled, { keyframes } from 'styled-components'

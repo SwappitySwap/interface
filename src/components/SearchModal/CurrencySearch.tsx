@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@swappityswap-dev/sdk'
+import { Currency, ETHER, Token } from '@dilipomi/swappityswap-sdk'
 import React, { KeyboardEvent, RefObject, useCallback, useEffect, useMemo, useRef, useState } from 'react'
 import ReactGA from 'react-ga'
 import { useTranslation } from 'react-i18next'

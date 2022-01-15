@@ -1,4 +1,4 @@
-import { Currency, Percent, Price } from '@swappityswap-dev/sdk'
+import { Currency, Percent, Price } from '@dilipomi/swappityswap-sdk'
 import React, { useContext } from 'react'
 import { Text } from 'rebass'
 import { ThemeContext } from 'styled-components'

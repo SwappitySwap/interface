@@ -1,6 +1,6 @@
 import React from 'react'
 import { Text } from 'rebass'
-import { ChainId, Currency, currencyEquals, ETHER, Token } from '@swappityswap-dev/sdk'
+import { ChainId, Currency, currencyEquals, ETHER, Token } from '@dilipomi/swappityswap-sdk'
 import styled from 'styled-components'
 
 import { SUGGESTED_BASES } from '../../constants'
