@@ -96,8 +96,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-	 "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+	 "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
     "start:service-worker": "yarn build && yarn serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
