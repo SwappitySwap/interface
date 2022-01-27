@@ -1,4 +1,4 @@
-import { Currency, ETHER, JSBI, TokenAmount } from '@swappityswap-dev/sdk'
+import { Currency, ETHER, JSBI, TokenAmount } from '@dilipomi/swappityswap-sdk'
 import React, { useCallback, useEffect, useState } from 'react'
 import { Plus } from 'react-feather'
 import { Text } from 'rebass'

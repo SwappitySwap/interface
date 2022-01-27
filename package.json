@@ -1,7 +1,7 @@
 {
   "name": "@swappityswap/interface",
   "description": "SwappitySwap Interface",
-  "homepage": ".",
+  "homepage": "https://dilipomi.github.io/interface",
   "private": true,
   "devDependencies": {
     "@ethersproject/experimental": "^5.0.1",
@@ -30,7 +30,7 @@
     "@uniswap/governance": "^1.0.2",
     "@uniswap/liquidity-staker": "^1.0.2",
     "@uniswap/merkle-distributor": "1.0.1",
-    "@swappityswap-dev/sdk": "1.0.19",
+    "@dilipomi/swappityswap-sdk": "1.1.19",
     "@uniswap/token-lists": "^1.0.0-beta.19",
     "@uniswap/v2-core": "1.0.0",
     "@uniswap/v2-periphery": "^1.1.0-beta.0",
@@ -96,6 +96,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+	 "predeploy": "yarn run build",
+    "deploy": "gh-pages -b master -d build",
     "start:service-worker": "yarn build && yarn serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
@@ -122,6 +124,7 @@
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
-    "@uniswap/default-token-list": "^2.0.0"
+    "@uniswap/default-token-list": "^2.0.0",
+	 "gh-pages": "^3.2.3"
   }
 }

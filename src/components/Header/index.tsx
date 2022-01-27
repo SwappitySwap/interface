@@ -1,4 +1,4 @@
-import { ChainId, TokenAmount } from '@swappityswap-dev/sdk'
+import { ChainId, TokenAmount } from '@dilipomi/swappityswap-sdk'
 import React, { useState } from 'react'
 import { Text } from 'rebass'
 import { NavLink } from 'react-router-dom'
@@ -292,7 +292,7 @@ const NETWORK_LABELS: { [chainId in ChainId]?: string } = {
   [ChainId.ROPSTEN]: 'Ropsten',
   [ChainId.GÖRLI]: 'Görli',
   [ChainId.KOVAN]: 'Kovan',
-  [ChainId.BSC]: 'Binance Smart Chain',
+  
   [ChainId.XDAI]: 'xDAI Chain',
 
 }

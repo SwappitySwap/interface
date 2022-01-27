@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from '@swappityswap-dev/sdk'
+import { Currency, CurrencyAmount, Fraction, Percent } from '@dilipomi/swappityswap-sdk'
 import React from 'react'
 import { Text } from 'rebass'
 import { ButtonPrimary } from '../../components/Button'

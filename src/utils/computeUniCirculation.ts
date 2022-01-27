@@ -1,4 +1,4 @@
-import { JSBI, Token, TokenAmount } from '@swappityswap-dev/sdk'
+import { JSBI, Token, TokenAmount } from '@dilipomi/swappityswap-sdk'
 import { BigNumber } from 'ethers'
 import { STAKING_GENESIS } from '../state/stake/hooks'
 

@@ -1,4 +1,4 @@
-import { ChainId, Currency } from '@swappityswap-dev/sdk'
+import { ChainId, Currency } from '@dilipomi/swappityswap-sdk'
 import React, { useContext } from 'react'
 import styled, { ThemeContext } from 'styled-components'
 import Modal from '../Modal'

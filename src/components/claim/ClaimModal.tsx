@@ -1,5 +1,5 @@
-import { JSBI } from '@swappityswap-dev/sdk'
-import { TokenAmount } from '@swappityswap-dev/sdk'
+import { JSBI } from '@dilipomi/swappityswap-sdk'
+import { TokenAmount } from '@dilipomi/swappityswap-sdk'
 import { isAddress } from 'ethers/lib/utils'
 import React, { useEffect, useState } from 'react'
 import { Text } from 'rebass'

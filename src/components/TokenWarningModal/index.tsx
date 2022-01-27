@@ -1,4 +1,4 @@
-import { Token } from '@swappityswap-dev/sdk'
+import { Token } from '@dilipomi/swappityswap-sdk'
 import React from 'react'
 import Modal from '../Modal'
 import { ImportToken } from 'components/SearchModal/ImportToken'

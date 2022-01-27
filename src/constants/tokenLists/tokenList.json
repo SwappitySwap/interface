@@ -1,0 +1,141 @@
+{
+  "name": "UCASH",
+  "logoURI": "https://i.imgur.com/Y2oqSOp.png",
+  "keywords": ["ucash", "defi"],
+  "timestamp": "2020-10-19T12:32:17.000+00:00",
+  "tokens": [
+    {
+      "name": "Wrapped Ether",
+      "address": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+      "symbol": "WETH",
+      "decimals": 18,
+      "chainId": 1,
+      "logoURI": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2/logo.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+      "name": "Dai Stablecoin",
+      "symbol": "DAI",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/dai.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0xdAC17F958D2ee523a2206206994597C13D831ec7",
+      "name": "Tether USD",
+      "symbol": "USDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/usdt.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48",
+      "name": "USD Coin USDC",
+      "symbol": "USDC",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/usdc.svg"
+    },
+    {
+      "chainId": 1,
+      "address": "0x92e52a1a235d9a103d970901066ce910aacefd37",
+      "name": "Universal Cash",
+      "symbol": "UCASH",
+      "decimals": 8,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 4,
+      "address": "0x1f9840a85d5aF5bf1D1762F925BDADdC4201F984",
+      "name": "Universal Cash",
+      "symbol": "rUCASH",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 1,
+      "address": "0x18d0e9a30489c78ecebc1afd7ff5d94036cb327f",
+      "name": "UCAD",
+      "symbol": "UCAD",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/SGYdlO9.png"
+    },
+    {
+      "chainId": 4,
+      "address": "0xd92e713d051c37ebb2561803a3b5fbabc4962431",
+      "name": "TestUsdtToken",
+      "symbol": "TUSDT",
+      "decimals": 6,
+      "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/usdt.svg"
+    },
+    {
+      "chainId": 4,
+      "address": "0xFDB0b435c9C1Fcf81B686aeef33d04f33888dB0c",
+      "name": "uus",
+      "symbol": "uus",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/usdt.svg"
+    },
+    {
+      "chainId": 4,
+      "address": "0x245d53aa8356783f3a5bb72b3bd793fe2fa33c9f",
+      "name": "tusd",
+      "symbol": "tusd",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/SetProtocol/uniswap-tokenlist/main/assets/usdt.svg"
+    },
+    {
+      "chainId": 56,
+      "address": "0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c",
+      "name": "BNB",
+      "symbol": "BNB",
+      "decimals": 18,
+      "logoURI": "https://cryptologos.cc/logos/binance-coin-bnb-logo.png?v=010"
+    },
+    {
+      "chainId": 56,
+      "address": "0xb2535bc0cb30273b7b109eda98b348d4f4634e05",
+      "name": "bUCASH",
+      "symbol": "bUCASH",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 30,
+      "address": "0xa511ec4390350b6817CA9122Df8Bd8297eA532F0",
+      "name": "RSK Smart XCP",
+      "symbol": "RXCP",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 30,
+      "address": "0xFa26ecdA879AC88AfD047cc6e046E85B9aFBa2CC",
+      "name": "Wrapped Smart Bitcoin",
+      "symbol": "WRBTC",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 31,
+      "address": "0x3D1190637E229953886A4F1106191E5480940863",
+      "name": "Wrapped Smart Bitcoin",
+      "symbol": "WRBTC",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    },
+    {
+      "chainId": 31,
+      "address": "0x08Eda877e32907aA13a04c6f70e6fd73e3436470",
+      "name": "Unocoin",
+      "symbol": "UNO",
+      "decimals": 18,
+      "logoURI": "https://i.imgur.com/Y2oqSOp.png"
+    }
+  ],
+  "version": {
+    "major": 0,
+    "minor": 1,
+    "patch": 0
+  }
+}

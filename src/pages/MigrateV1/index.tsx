@@ -1,4 +1,4 @@
-import { JSBI, Token } from '@swappityswap-dev/sdk'
+import { JSBI, Token } from '@dilipomi/swappityswap-sdk'
 import React, { useCallback, useContext, useMemo, useState, useEffect } from 'react'
 import { ThemeContext } from 'styled-components'
 import { AutoColumn } from '../../components/Column'

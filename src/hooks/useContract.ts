@@ -3,7 +3,7 @@ import { abi as GOVERNANCE_ABI } from '@uniswap/governance/build/GovernorAlpha.j
 import { abi as UNI_ABI } from '@uniswap/governance/build/Uni.json'
 import { abi as STAKING_REWARDS_ABI } from '@uniswap/liquidity-staker/build/StakingRewards.json'
 import { abi as MERKLE_DISTRIBUTOR_ABI } from '@uniswap/merkle-distributor/build/MerkleDistributor.json'
-import { ChainId, WETH } from '@swappityswap-dev/sdk'
+import { ChainId, WETH } from '@dilipomi/swappityswap-sdk'
 import { abi as IUniswapV2PairABI } from '@uniswap/v2-core/build/IUniswapV2Pair.json'
 import { useMemo } from 'react'
 import { GOVERNANCE_ADDRESS, MERKLE_DISTRIBUTOR_ADDRESS, UNI } from '../constants'
@@ -77,7 +77,7 @@ export function useENSRegistrarContract(withSignerIfPossible?: boolean): Contrac
       case ChainId.MAINNET:
       case ChainId.GÖRLI:
       case ChainId.ROPSTEN:
-      case ChainId.BSC:
+      case ChainId.BINANCE:
       case ChainId.XDAI:
       case ChainId.RINKEBY:
         address = '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e'

@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@swappityswap-dev/sdk'
+import { Currency, ETHER, Token } from '@dilipomi/swappityswap-sdk'
 import React, { useMemo } from 'react'
 import styled from 'styled-components'
 

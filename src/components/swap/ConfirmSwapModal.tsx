@@ -1,4 +1,4 @@
-import { currencyEquals, Trade } from '@swappityswap-dev/sdk'
+import { currencyEquals, Trade } from '@dilipomi/swappityswap-sdk'
 import React, { useCallback, useMemo } from 'react'
 import TransactionConfirmationModal, {
   ConfirmationModalContent,

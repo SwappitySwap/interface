@@ -1,7 +1,7 @@
 import { splitSignature } from '@ethersproject/bytes'
 import { Contract } from '@ethersproject/contracts'
 import { TransactionResponse } from '@ethersproject/providers'
-import { Currency, currencyEquals, ETHER, Percent, WETH } from '@swappityswap-dev/sdk'
+import { Currency, currencyEquals, ETHER, Percent, WETH } from '@dilipomi/swappityswap-sdk'
 import React, { useCallback, useContext, useMemo, useState } from 'react'
 import { ArrowDown, Plus } from 'react-feather'
 import ReactGA from 'react-ga'
@@ -122,8 +122,9 @@ export default function RemoveLiquidity({
       { name: 'chainId', type: 'uint256' },
       { name: 'verifyingContract', type: 'address' }
     ]
+	//LP token name
     const domain = {
-      name: 'SwappitySwap LP Token',
+      name: 'SWAPPITYSWAP LP Token',
       version: '1',
       chainId: chainId,
       verifyingContract: pair.liquidityToken.address

@@ -1,4 +1,4 @@
-import { Currency, ETHER, Token } from '@swappityswap-dev/sdk'
+import { Currency, ETHER, Token } from '@dilipomi/swappityswap-sdk'
 
 export function currencyId(currency: Currency): string {
   if (currency === ETHER) return 'ETH'

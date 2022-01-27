@@ -1,4 +1,4 @@
-import { ChainId, TokenAmount } from '@swappityswap-dev/sdk'
+import { ChainId, TokenAmount } from '@dilipomi/swappityswap-sdk'
 import React, { useMemo } from 'react'
 import { X } from 'react-feather'
 import styled from 'styled-components'

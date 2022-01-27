@@ -1,6 +1,6 @@
 import { UNSUPPORTED_LIST_URLS } from './../../constants/lists'
 import DEFAULT_TOKEN_LIST from '@uniswap/default-token-list'
-import { ChainId, Token } from '@swappityswap-dev/sdk'
+import { ChainId, Token } from '@dilipomi/swappityswap-sdk'
 import { Tags, TokenInfo, TokenList } from '@uniswap/token-lists'
 import { useMemo } from 'react'
 import { useSelector } from 'react-redux'
@@ -41,10 +41,13 @@ const EMPTY_LIST: TokenAddressMap = {
   [ChainId.RINKEBY]: {},
   [ChainId.ROPSTEN]: {},
   [ChainId.GÖRLI]: {},
+  [ChainId.RSK]: {},
+  [ChainId.RSKTEST]: {},
   [ChainId.MAINNET]: {},
-  [ChainId.BSC]: {},
+  [ChainId.BINANCE]: {},
+  [ChainId.BINANCETEST]: {},
   [ChainId.XDAI]: {},
-
+  [ChainId.POLYGON]: {}
 }
 
 const listCache: WeakMap<TokenList, TokenAddressMap> | null =
@@ -99,9 +102,13 @@ function combineMaps(map1: TokenAddressMap, map2: TokenAddressMap): TokenAddress
     3: { ...map1[3], ...map2[3] },
     4: { ...map1[4], ...map2[4] },
     5: { ...map1[5], ...map2[5] },
+    30: { ...map1[30], ...map2[30] },
+    31: { ...map1[31], ...map2[31] },
     42: { ...map1[42], ...map2[42] },
     56: { ...map1[56], ...map2[56] },
+    97: { ...map1[97], ...map2[97] },
     100: { ...map1[100], ...map2[100] },
+    137: { ...map1[137], ...map2[137] }
   }
 }
 

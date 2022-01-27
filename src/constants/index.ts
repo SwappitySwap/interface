@@ -1,14 +1,15 @@
-import { ChainId, JSBI, Percent, Token, WETH } from '@swappityswap-dev/sdk'
+import { ChainId, JSBI, Percent, Token, WETH } from '@dilipomi/swappityswap-sdk'
 import { AbstractConnector } from '@web3-react/abstract-connector'
 
 import { fortmatic, injected, portis, walletconnect, walletlink } from '../connectors'
 
-export const ROUTER_ADDRESS = '0xBf0B3978ab7341e0CEfb14d76B4f0379B5Bf3EA1'
+export const ROUTER_ADDRESS = '0x0EaAE2E37B8F986996be7b1d99B3c34F56015D29'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 
 export { PRELOADED_PROPOSALS } from './proposals'
 
+console.log("DANChainId: "+JSON.stringify(ChainId));
 // a list of tokens by chain
 type ChainTokenList = {
   readonly [chainId in ChainId]: Token[]
@@ -40,12 +41,13 @@ export const UNI: { [chainId in ChainId]: Token } = {
   [ChainId.RINKEBY]: new Token(ChainId.RINKEBY, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
   [ChainId.ROPSTEN]: new Token(ChainId.ROPSTEN, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
   [ChainId.GÖRLI]: new Token(ChainId.GÖRLI, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
+  [ChainId.RSK]: new Token(ChainId.RSK, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
+  [ChainId.RSKTEST]: new Token(ChainId.RSKTEST, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
   [ChainId.KOVAN]: new Token(ChainId.KOVAN, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
-  [ChainId.BSC]: new Token(ChainId.BSC, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
-  [ChainId.XDAI]: new Token(ChainId.XDAI, UNI_ADDRESS, 18, 'UNI', 'Uniswap')
-
-
-
+  [ChainId.BINANCE]: new Token(ChainId.BINANCE, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
+  [ChainId.BINANCETEST]: new Token(ChainId.BINANCETEST, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
+  [ChainId.XDAI]: new Token(ChainId.XDAI, UNI_ADDRESS, 18, 'UNI', 'Uniswap'),
+  [ChainId.POLYGON]: new Token(ChainId.POLYGON, UNI_ADDRESS, 18, 'UNI', 'Uniswap')
 }
 
 export const COMMON_CONTRACT_NAMES: { [address: string]: string } = {
@@ -65,8 +67,12 @@ const WETH_ONLY: ChainTokenList = {
   [ChainId.RINKEBY]: [WETH[ChainId.RINKEBY]],
   [ChainId.GÖRLI]: [WETH[ChainId.GÖRLI]],
   [ChainId.KOVAN]: [WETH[ChainId.KOVAN]],
-  [ChainId.BSC]: [WETH[ChainId.BSC]],
-  [ChainId.XDAI]: [WETH[ChainId.XDAI]]
+  [ChainId.RSK]: [WETH[ChainId.RSK]],
+  [ChainId.RSKTEST]: [WETH[ChainId.RSKTEST]],
+  [ChainId.BINANCE]: [WETH[ChainId.BINANCE]],
+  [ChainId.BINANCETEST]: [WETH[ChainId.BINANCETEST]],
+  [ChainId.XDAI]: [WETH[ChainId.XDAI]],
+  [ChainId.POLYGON]: [WETH[ChainId.POLYGON]]
 }
 
 // used to construct intermediary pairs for trading
