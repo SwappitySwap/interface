@@ -122,6 +122,7 @@ export default function RemoveLiquidity({
       { name: 'chainId', type: 'uint256' },
       { name: 'verifyingContract', type: 'address' }
     ]
+	//LP token name
     const domain = {
       name: 'SWAPPITYSWAP LP Token',
       version: '1',
